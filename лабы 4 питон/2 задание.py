@@ -6,7 +6,7 @@ OUTPUT_FILENAME = "output.json"
 
 
 def task() -> None:
-    """""Процесс преобразования файла input.csv"""
+    """Процесс преобразования файла input.csv"""
     with open(INPUT_FILENAME, 'r') as csv_file:
         dictionary = [row for row in csv.DictReader(csv_file)]
 
